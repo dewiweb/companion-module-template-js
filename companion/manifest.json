@@ -1,26 +1,31 @@
 {
-	"id": "your-module-name",
-	"name": "your-module-name",
-	"shortname": "module-shortname",
-	"description": "A short one line description of your module",
+	"id": "Digital_Projection-MLS2",
+	"name": "Digital_Projection-MLS2",
+	"shortname": "Digital_Projection-MLS2",
+	"description": "Digital_Projection-MLS_controller",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-your-module-name.git",
-	"bugs": "https://github.com/bitfocus/companion-module-your-module-name/issues",
+	"repository": "",
+	"bugs": "",
 	"maintainers": [
 		{
-			"name": "Your name",
-			"email": "Your email"
+			"name": "dewiweb",
+			"email": "dewiweb@gmail.com"
 		}
 	],
+	"legacyIds": [],
 	"runtime": {
 		"type": "node18",
 		"api": "nodejs-ipc",
 		"apiVersion": "0.0.0",
 		"entrypoint": "../main.js"
 	},
-	"legacyIds": [],
-	"manufacturer": "Your company",
-	"products": ["Your product"],
-	"keywords": []
+	"manufacturer": "Digital_Projection",
+	"products": [
+		"MLS2"
+	],
+	"keywords": [
+		"Protocol",
+		"Generic"
+	]
 }
